@@ -1,0 +1,37 @@
+{
+  "name": "react-scroll",
+  "version": "1.0.0",
+  "description": "A lightweight package for controling scroll state of react-application pages ",
+  "main": "disk/index.js",
+  "module": "disk/index.js",
+  "types": "disk/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirezaAslani-eng/react-scroll.git"
+  },
+  "keywords": [
+    "scroll",
+    "react-scroll"
+  ],
+  "author": "Alireza Aslani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alirezaAslani-eng/react-scroll/issues"
+  },
+  "homepage": "https://github.com/alirezaAslani-eng/react-scroll#readme",
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2"
+  }
+}
